@@ -1,1 +1,12 @@
 /* styles go here */
+fieldset:not(:first-child) {
+  margin-top: 20px;
+}
+
+.form_field:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.form_button {
+  margin-top: 20px;
+}
