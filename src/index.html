@@ -13,180 +13,180 @@
   <body>
     <script type="text/javascript" src="./main.js"></script>
     <form
-    action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-    method="post"
-    onsubmit="onSubmit()">
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="post"
+      onsubmit="onSubmit()"
+    >
 
-      <fieldset class="blok">
+      <fieldset class="fieldset">
         <legend>Personal information</legend>
         <div class="form_field">
-          <label for="Surname">
+          <label for="surname">
           Surname:
           </label>
           <input
           type="text"
-          name="Surname"
+          name="surname"
           required
-          id="Surname">
+          id="surname">
         </div>
 
         <div class="form_field">
-          <label for="Name">
+          <label for="name">
           Name:
           </label>
           <input
           type="text"
-          name="Name"
+          name="name"
           required
-          id="Name">
+          id="name">
         </div>
 
         <div class="form_field">
-          <label for="How old are You">
+          <label for="how old are You">
           How old are You?
           </label>
           <input
           type="number"
-          name="How old are You?"
+          name="how old are You?"
           value="12"
           min="12"
           max="100"
           required
-          id="How old are You">
+          id="how old are You">
         </div>
 
         <div class="form_field">
-          <label for="Full date of birth">
+          <label for="full date of birth">
           Full date of birth:
           </label>
           <input
           type="date"
-          name="Full date of birth"
+          name="full date of birth"
           required
-          id="Full date of birth">
+          id="full date of birth">
         </div>
 
         <div class="form_field">
-          <label for="I accept the term of the agreement">
+          <label for="i accept the term of the agreement">
           I accept the term of the agreement
           </label>
           <input
           type="checkbox"
-          name="I accept the term of the agreement"
+          name="i accept the term of the agreement"
           required
-          id="I accept the term of the agreement">
+          id="i accept the term of the agreement">
         </div>
       </fieldset>
 
-      <fieldset class="blok">
+      <fieldset class="fieldset">
         <legend>Registration</legend>
         <div class="form_field">
-          <label for="E-mail">
+          <label for="e-mail">
           E-mail:
           </label>
           <input
           type="email"
-          name="Email"
+          name="email"
           placeholder="email@example.com"
-          required id="E-mail">
+          required id="e-mail">
         </div>
 
         <div class="form_field">
-          <label for="Password">
+          <label for="password">
           Password:
           </label>
           <input
           type="password"
-          name="Password"
+          name="password"
           required
-          id="Password"
+          id="password"
           minlength="5"
           maxlength="32">
         </div>
       </fieldset>
 
-      <fieldset class="blok">
+      <fieldset class="fieldset">
         <legend>An interesting fact about you!</legend>
         <div class="form_field">
         Do you love cats?
-          <label for="Yes">
-            <input id="Yes"
+          <label for="yes">
+            <input id="yes"
           type="radio"
-          name="Do you love cats?"
+          name="do you love cats?"
           value="Yes"
           required> Yes
           </label>
 
-          <label for="No">
-            <input id="No"
+          <label for="no">
+            <input id="no"
             type="radio"
-            name="Do you love cats?"
+            name="do you love cats?"
             value="No" required> No
           </label>
         </div>
 
         <div class="form_field">
-          <label for="What is your favorite color">
+          <label for="what is your favorite color">
           What is your favorite color?
           </label>
           <input
         type="color"
-        name="What is your favorite color?"
+        name="what is your favorite color?"
         required
-        id="What is your favorite color">
+        id="what is your favorite color">
         </div>
 
         <div class="form_field">
-          <label for="What time do you go to bed">
+          <label for="what time do you go to bed">
           What time do you go to bed?
           </label>
           <input
         type="time"
-        name="What time do you go to bed?"
+        name="what time do you go to bed?"
         required
-        id="What time do you go to bed">
+        id="what time do you go to bed">
         </div>
 
         <div class="form_field">
-          <label for="What are your favorite brand of cars">
+          <label for="what are your favorite brand of cars">
           What are your favorite brand of cars?
             <select name="cars"
-            id="What are your favorite brand of cars"
+            id="what are your favorite brand of cars"
             required
             multiple>
               <option value="BMV">BMV</option>
               <option value="Audi">Audi</option>
               <option value="Lada">Lada</option>
-              <option disabled selected></option>
             </select>
           </label>
         </div>
 
         <div class="form_field">
-          <label for="How do you rate our work">
+          <label for="how do you rate our work">
           How do you rate our work?
           </label>
           <input
         type="range"
-        name="How do you rate our work"
+        name="how do you rate our work"
         required
-        id="How do you rate our work">
+        id="how do you rate our work">
         </div>
       </fieldset>
 
-      <fieldset class="blok">
+      <fieldset class="fieldset">
         <legend>Additional info</legend>
         <div class="form_field">
-          <label for="Comments">
+          <label for="comments">
           Comments:
-            <textarea name="Comments" id="Comments"></textarea>
+            <textarea name="comments" id="comments"></textarea>
           </label>
         </div>
 
         <div class="form_field">
-          <label for="Would you recommend us">
+          <label for="would you recommend us">
           Would you recommend us?
-            <select required id="Would you recommend us">
+            <select required id="would you recommend us">
               <option value="yes">yes</option>
               <option value="no">no</option>
             </select>

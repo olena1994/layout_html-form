@@ -1,5 +1,5 @@
 /* styles go here */
-fieldset:not(:first-child) {
+.fieldset:not(:first-child) {
   margin-top: 20px;
 }
 
